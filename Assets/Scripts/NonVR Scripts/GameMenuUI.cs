@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameStartMenuSimplify : MonoBehaviour
+public class GameMenuUI : MonoBehaviour
 {
     [Header("UI Pages")]
     public GameObject mainMenu;
@@ -40,7 +40,7 @@ public class GameStartMenuSimplify : MonoBehaviour
     public void StartGame()
     {
         HideAll();
-        SceneTransitionManager.singleton.GoToSceneAsync(1);
+        //SceneTransitionManager.singleton.GoToSceneAsync(1);
     }
 
     public void HideAll()
